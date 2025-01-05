@@ -24,7 +24,7 @@ Note for the Marker:
 * We have added a feature to buy a car which is then removed from the database if the user confirms the purchase.
 * We have added the favorite feature for cars which favorites/saves a car (go into favourites to see it and long press on them to remove them from favorites).
 * We also have Filter Feature implemented but later on added a feature to sort based max kilometers driven.
-* To switch between database and stub just change the boolean fromDB to false in [Services.java](app/src/main/java/application/Services.java).
+* To switch between database and stub just change the boolean fromDB to false in [Services.java](../app/src/main/java/application/Services.java).
 * When using the filters section each field is mandatory and cannot be left empty, if left empty then it gives a warning to fill the fields.
 * Our App is meant to run in Portrait Mode and is not completely supported in the Landscape Mode.
 * System Tests for all of our major features have been implemented.
@@ -33,12 +33,12 @@ Note for the Marker:
 
 ## Architecture Document
 
-We have the [Architecture Diagram](documents/ARCHITECTURE3.md) in the Images folder
+We have the [Architecture Diagram](images/ARCHITECTURE3.md) in the Images folder
 
 ## Tests
 
-* The Unit tests and Integration Tests are located in [Tests](app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file.
-* The System tests are located in [AndroidTest](app/src/androidTest/java/com/example/myapplication)
+* The Unit tests and Integration Tests are located in [Tests](../app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](../app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file.
+* The System tests are located in [AndroidTest](../app/src/androidTest/java/com/example/myapplication)
 * We have achieved a high test coverage for business layer which is around 92% coverage including the Integration tests. 
 * The integration tests will also run on running AllTests.java
-* The system tests will run either using the package or by running [AllSystemTests.java](app/src/androidTest/java/com/example/myapplication/sysTests)
+* The system tests will run either using the package or by running [AllSystemTests.java](../app/src/androidTest/java/com/example/myapplication/sysTests)
