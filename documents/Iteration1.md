@@ -28,7 +28,7 @@ Note for the Marker:
 
 ## Architecture Document
 
-We have the [Architecture Diagram](documents/ARCHITECTURE.md) in the Images folder
+We have the [Architecture Diagram](documents/ARCHITECTURE.png) in the Images folder
 
 ## Tests
 
