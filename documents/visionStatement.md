@@ -1,0 +1,15 @@
+# Car Trading System Vision Statement
+
+The Car Trading System will be used as a platform to view and trade cars. This system will act as a digital platform where users will be able to view cars of different makes and models, compare the features of different cars, filter cars to find which suits them and purchase it. The trading system will serve as a marketplace for new and old cars.
+
+The system will be primarily used by individuals in the market looking to purchase a new car with features that facilitate the car-buying journey at the tip of their fingers. It makes use of a non-intimidating interface to simplify and optimise the process for searching, selecting and purchasing the ideal vehicle for both first-time buyers and enthusiasts. The program provides real-time information on promotions, discounts and competitive buyer numbers, adding transparency to the buying process and making car buying easy and stress-free. Additionally, the system will also have a financing section which will help the customers in financing their car. The customers will be able to choose the perfect car for them based on surveys which filter the cars to their specific needs such as price, features, and even expected monthly instalments.
+
+This system will also be used by people and dealerships wanting to sell cars, so it will permit people to create listings to sell their cars and have people buy them, providing a source of income to many. Prospective sellers will also be able to price their cars appropriately by comparing the prices of other similar listings.
+
+Car browsing is usually a time consuming and daunting task, often buyers lack having more than enough options to consider from, leaving them under-informed. This system would be a significant improvement over the current systems in use, which are primarily physical dealerships, since it will give people the flexibility to buy/sell cars from anywhere, hence increasing the variety of options at disposal. 
+
+The underlying process involves very little human interaction enforcing unambiguity from both the seller and consumer ends. It provides a more streamlined and informative way to buy a car with the use of effective filtering so each search is tailored to current preferences and needs. Furthermore, it greatly reduces the tedious time of reading car configurations and quickly finds the vehicle(s) that the user desires. 
+
+Moreover, the application extends beyond transactions and provides invaluable resources for individuals eager to deepen their understanding of financing cars. With the ability to swiftly access monthly prices through instalment financing, users and learners can make informed decisions, steering clear of unfavourable loan terms or unforeseen fees.
+
+This system is envisioned as an Android application, but it can be extended to other platforms such as iOS, web-based interface in the future releases. It will be considered a success based on the single criterion of if users prefer this system over physical dealerships and other car trading platforms i.e there is more ease of putting up cars for sale to the market and buying cars from it.
