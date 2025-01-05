@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AutoCar - Car App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <header>
+    <div class="container">
+      <img src="images/logo.png" alt="AutoCar App Logo" style="width: 100px; height: 100px; display: inline-block;">  <h1>AutoCar</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-us">Our Journey</a></li>
+          <li><a href="#features">Under the Hood</a></li>
+          <li><a href="#postmortem">The Development Experience</a></li>
+          <li><a href="#contact">About the Team</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="about-us">
+      <div class="container">
+        <h2>Our Journey</h2>
+        <p>The Car Trading System will be used as a platform to view and trade cars. This system will act as a digital platform where users will be able to view cars of different makes and models, compare the features of different cars, filter cars to find which suits them and purchase it. The trading system will serve as a marketplace for new and old cars.
+          The system will be primarily used by individuals in the market looking to purchase a new car with features that facilitate the car-buying journey at the tip of their fingers. It makes use of a non-intimidating interface to simplify and optimise the process for searching, selecting and purchasing the ideal vehicle for both first-time buyers and enthusiasts. The program provides real-time information on promotions, discounts and competitive buyer numbers, adding transparency to the buying process and making car buying easy and stress-free. Additionally, the system will also have a financing section which will help the customers in financing their car. The customers will be able to choose the perfect car for them based on surveys which filter the cars to their specific needs such as price, features, and even expected monthly instalments.
+          This system will also be used by people and dealerships wanting to sell cars, so it will permit people to create listings to sell their cars and have people buy them, providing a source of income to many. Prospective sellers will also be able to price their cars appropriately by comparing the prices of other similar listings.The application is directed to either first time buyers as well as enthusiasts that have a passion for automobiles with very specific wants. It is made for users that prefer the convenience of shopping online for cars, additionally,  working professionals that seek a streamlined approach to buying and selling cars will appreciate the efficiency of the platform. The digital interface simplifies the car-buying process and provides real-time information on the competitive prices and even narrows down the search of vehicles to specific preferences. Furthermore, any budget-conscious buyer can interact with the financial tool in order to provide insight on any required loan-term payments with flexible interest rates. This system is envisioned as an Android application, but it can be extended to other platforms such as iOS, web-based interface in the future releases. It will be considered a success based on the single criterion of if users prefer this system over physical dealerships and other car trading platforms i.e there is more ease of putting up cars for sale to the market and buying cars from it.</p>
+        </div>
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <h2>Under the Hood</h2>
+        <div class="features"> 
+          <div class="feature">
+            <h3>Favourite Feature</h3>
+            <video width="320" height="240" controls>
+              <source src="FavoritedVoiceover.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>Save Cars by adding them to a favourite folder</p>
+          </div>
+          <div class="feature">
+            <h3>Monthly Installments Tool</h3>
+            <video width="320" height="240" controls>
+              <source src="EMIVideo.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>Easily Calculate the monthly installments for your car</p>
+          </div>
+          <div class="feature">
+            <h3>Filter Feature</h3>
+            <video width="320" height="240" controls>
+              <source src="Filter.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+            </video>
+            <p>Filters cars based on the attributes</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="postmortem">
+      <div class="container">
+        <h2>The Retrospective "Postmortem" Experience</h2>
+        <p> The development of the electronic car market was an ambitious project aimed at creating a user-friendly platform to buy and sell cars from the comfort of home using a simple and understandable interface. Throughout the development, we encountered many ups and downs that shaped our outcome for the final iteration deliverable, however, we learned important lessons that will come in handy for future software development projects that couldn’t have been learned without being hands-on. <br>
+          One positive aspect was having a clear vision statement that helped us guide and not stray too far from our original project goal; the team had plenty of amazing ideas that had to be discarded, such as having a social networking component to allow users to connect with one another, share experiences with different car models and even organize car pop-up events, however, it did not align with the primary goal of facilitating car trading in an efficient manner. Team collaboration, communication and attitude improved for each iteration. Weekly Monday-Meetings helped increase our workflow as well as helped us quickly identify and resolve issues that came with narrow deadlines. Along the semester, we kept our ambitions high but quickly learned that it is hard to consistently put out good quality code, get all features done and juggle other courses at one go. Hence, we prioritized reducing code smells, adhering to SOLID principles and using test driven development to make sure that software released for our users will be stable, minimally ‘buggy’ and give them a smooth, enjoyable experience with existing features before adding new features. Additionally, being able to utilize Git for version control proved to be beneficial in managing code changes and collaborating on the project. As a group, we recklessly avoided deciding a branching strategy until and after iteration 2, using branching and merging strategies helped us keep our main branch safe from corruption and reduced the worry of badly messing up the entirety of the project. <br>
+          As a team, we encountered the challenge of resource-constraints; we had limited resources against time. After the first  and second iteration, we realized that the code-base needed a lot of refactoring due to plenty of technical debt, we had plenty of DIP violations as well as null-returns, hence, some of the features, such as a buy button had to be held off until i03. Additionally, we lacked code-coverage since as a team, we rushed to get testing done a few days prior to the iteration 1 deadline. It was a mistake we learned to not repeat for i02/i03 as testing really does help improve code quality and software. We also encountered technical challenges when trying to integrate ‘complex’ features such as the filter - in some versions of the software, the filter activity page took too long to load, so much so that the app would not respond for a minute. Lack of expertise posed a challenge since it could not be fixed before the i02 deadline, however, soon after, one of our dedicated team members fixed the issue ASAP. <br>
+
+          Overall, the project proved to be a stepping stone for all of us, since neither had experience in software development. We learned to establish clear boundaries and prioritize tasks that are realistically handled within a given time frame - this was crucial to manage scope creep and ensure success. We also learned that practicing transparent communication and taking accountability minimizes misunderstanding and makes the team solve problems quickly. Highlighting problems immediately helps increase stability of the code base and reassures the team that we are on the right track. If given the chance to start over, we would practice test driven development, and try not to make reckless and deliberate decisions out of laziness or deadline pressure. <br>
+        </p>
+        </div>
+    </section>
+
+
+
+    <section id="contact">
+      <div class="container">
+        <h2>About the team</h2>
+        <p><b>Apoorva Upadhyaya:</b> I got to learn about good development practices and how to work better in conjunction with a team.<br>
+          <b>Uday Shekhawat: </b> I gained a lot about git management and branching strategies which will be helpful for the future. On top of that the planning process and iterations were something new to me and I had to pick up on.<br>
+
+          <b>Lingyu Meng:</b> I adopted best practices like regular refactoring, adhering to clean code principles, and utilizing design patterns that promote readability, maintainability, and scalability.Also the implement the feature and UI in the real APP development.<br>
+          <b>Dhvani Patel:</b> I gained the ability to test and debug android applications in order to optimize performance and ensure the application is stable and reliable.<br>
+          
+          <b>Eseosa Ataga:</b><br>
+          </p>
+        </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; LightsOutBugsOut 2024</p>
+    </div>
+  </footer>
+  
+  <script src="script.js"></script> </body>
+</html>
