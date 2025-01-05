@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="presentation.MainActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fields marked * are mandatory"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:textColor="@color/material_dynamic_neutral_variant40"
+        />
+
+
+    <TextView
+        android:id="@+id/make_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MAKE (*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+    <EditText
+        android:id="@+id/make_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/model_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MODEL (*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+    <EditText
+        android:id="@+id/model_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/year_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="YEAR (*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+    <EditText
+        android:id="@+id/year_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/km_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MILEAGE TO NEAREST KILOMETER(*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+    <EditText
+        android:id="@+id/km_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/des_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DESCRIPTION OF CAR:"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+    <EditText
+        android:id="@+id/des_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:id="@+id/price_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRICE TO NEAREST DOLLAR (CAD$):"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+    <EditText
+        android:id="@+id/price_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/trans_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TRANSMISSION (*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+    <Spinner
+        android:id="@+id/trans_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/fuel_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FUEL (*)"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+
+    <Spinner
+        android:id="@+id/fuel_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+
+
+    <TextView
+        android:id="@+id/dealer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DEALER OF CAR (*):"
+        android:textSize="25sp"
+        android:textColor="@color/material_dynamic_primary50"
+        />
+    <Spinner
+        android:id="@+id/dealer_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/create_car"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="add car to market for sale"
+        />
+</LinearLayout>
+
+</ScrollView>
