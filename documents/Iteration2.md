@@ -22,7 +22,7 @@ Note for the Marker:
 
 * We have added the favorite feature for cars which favorites/saves a car (go into favourites to see it and long press on them to remove them from favorites).
 * We also have Filter Feature implemented but later on added a feature to sort based max kilometers driven.
-* To switch between database and stub just change the boolean fromDB to false in [Services.java](app/src/main/java/application/Services.java)
+* To switch between database and stub just change the boolean fromDB to false in [Services.java](../app/src/main/java/application/Services.java)
 * When using filter with the database, once you click on search the App gives ANR (App Not Responding) due to the main thread doing input from Database. Please wait and do not click on anything and the filter will show up in around 8 seconds. This is happening because the APP NOT RESPONDING pops up once the main thread is waiting for 5 seconds. I looked into the error and seems like the way to prevent this is either reducing calls to Database or making the program multithreaded.
 * When using the filters section each field is mandatory and cannot be left empty, if left empty then it gives a warning to fill the fields.
 * Our App is meant to run in Portrait Mode and is not completely supported in the Landscape Mode (The filter button has relative distance with respect to the window size instead of having the struts and spring model, we will try to implement it in the next iteration).
