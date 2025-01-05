@@ -30,10 +30,10 @@ Note for the Marker:
 
 ## Architecture Document
 
-We have the [Architecture Diagram](documents/ARCHITECTURE2.md) in the Images folder
+We have the [Architecture Diagram](documents/ARCHITECTURE2.png) in the Images folder
 
 ## Tests
 
-* The tests are located in [Tests](app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file.
+* The tests are located in [Tests](../app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](../app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file.
 * We have achieved a high test coverage for business layer which is around 90% coverage including the Integration tests. 
 * The integration tests will also run on running AllTests.java
