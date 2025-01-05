@@ -33,7 +33,7 @@ Note for the Marker:
 
 ## Architecture Document
 
-We have the [Architecture Diagram](images/ARCHITECTURE3.md) in the Images folder
+We have the [Architecture Diagram](../images/ARCHITECTURE3.md) in the Images folder
 
 ## Tests
 
