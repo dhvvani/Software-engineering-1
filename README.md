@@ -7,7 +7,7 @@ The **Car Trading System** aims to create a platform where people can buy/sell c
 ## Documentation
 
 - [Vision Statement](documents/visionStatement.md): Provides the vision statement for this project (this will be updated with each iteration).
-- [Architecture Diagram](documents/ARCHITECTURE3.md): Provides the architecture diagram for this project (this will be updated with each iteration).
+- [Architecture Diagram](images/ARCHITECTURE3.md): Provides the architecture diagram for this project (this will be updated with each iteration).
 
 ## Iteration Document
 
