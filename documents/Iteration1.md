@@ -28,8 +28,8 @@ Note for the Marker:
 
 ## Architecture Document
 
-We have the [Architecture Diagram](documents/ARCHITECTURE.png) in the Images folder
+We have the [Architecture Diagram](../images/ARCHITECTURE.png) in the Images folder
 
 ## Tests
 
-The tests are located in [Tests](app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file
+The tests are located in [Tests](../app/src/test/java/com/lightsoutbugsout/tests) and can be run by running the [AllTests.java](../app/src/test/java/com/lightsoutbugsout/tests/AllTests.java) file
