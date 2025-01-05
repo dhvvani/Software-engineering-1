@@ -1,3 +1,5 @@
+### please note that this was a group project for Software Engineering 1 - COMP 3350 of Winter 2024. Credit belongs to me as it does to my fellow group members (Lingyu Meng, Apoorva Upadhyaya and Uday Shekhawat).  
+
 # ![LightsOutBugsOut](images/logos/logoSmall.png) LightsOutBugsOut - A01 - Group 5
 
 The **Car Trading System** aims to create a platform where people can buy/sell cars seamlessly. This is implemented as an user-friendly android application which connects buyers and sellers.
