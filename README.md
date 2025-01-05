@@ -1,5 +1,18 @@
-# Software-engineering-1
-As a team, we developed an electronic car trading platform, currently, the features fully implemented are a filter to narrow down search options, a favorite page, the ability to add cars for sale onto the market, purchase a car, communicate with the dealers of the car plus a financial planning tool. The repository is meant to not be imported to my personal account so can be found here:
-[https://code.cs.umanitoba.ca/comp3350-winter2024/lightsoutbugsout-a01-5](url)
+# ![LightsOutBugsOut](images/logos/logoSmall.png) LightsOutBugsOut - A01 - Group 5
 
-Learning outcomes of the project were extensive. The course went into depth on foundations of software development from user stories, features and dev tasks to bigger scaled objectives such as branching strategies, version control, system testing and software stability. As a team, we employed several design patterns such as the Adapter Pattern found in FilterActivity.java. Additionally, we were heavily focused on reducing SOLID violations and reducing technical debt as much as possible for better quality code. We emploed Test Driven Development to reduce code duplication, reduce coupling between independent modules and have tests that cover theshole system's base. 
+The **Car Trading System** aims to create a platform where people can buy/sell cars seamlessly. This is implemented as an user-friendly android application which connects buyers and sellers.
+
+## Documentation
+
+- [Vision Statement](documents/visionStatement.md): Provides the vision statement for this project (this will be updated with each iteration).
+- [Architecture Diagram](documents/ARCHITECTURE3.md): Provides the architecture diagram for this project (this will be updated with each iteration).
+
+## Iteration Document
+
+For the Markers (Please go through these to get an idea about the current Iteration)
+
+- [Iteration 1](documents/Iteration1.md)
+
+- [Iteration 2](documents/Iteration2.md)
+
+- [Iteration 3](documents/Iteration3.md)
